@@ -1,7 +1,7 @@
 ﻿using RockPaperScissorsGame;
 
 //Initiates the game and capture user's choice
-Console.Write("Let's play Rock, Paper Scissors! Please enter your choice: ");
+Console.Write("Let's play Rock, Paper, Scissors! Please enter your choice: ");
 var userChoice = Console.ReadLine().ToLower();
 Console.WriteLine();
 
