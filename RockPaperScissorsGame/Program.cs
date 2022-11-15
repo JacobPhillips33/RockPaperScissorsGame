@@ -1,26 +1,27 @@
 ﻿using RockPaperScissorsGame;
 
-//Initiates the game and capture user's choice
+// Initiates the game and capture user's choice
 Console.Write("Let's play Rock, Paper, Scissors! Please enter your choice: ");
 var userChoice = Console.ReadLine().ToLower();
 Console.WriteLine();
 
-//Makes initial random computer choice
+// Makes initial random computer choice
 string computerChoice = Methods.ComputerChoice();
 
-bool letsPlay = true; //Conditional for if user wants to play
+bool letsPlay = true; // Conditional for if user wants to play
 
 while (letsPlay)
 {
-    //TODO - Ensure the user entry is valid -- the below code is not working correctly
-            //while (userChoice != "rock" || userChoice != "paper" || userChoice != "scissors")
-            //{
-            //    Console.WriteLine("Please make a valid entry of 'rock,' 'paper,' or 'scissors.' Try again:");
-            //    userChoice = Console.ReadLine().ToLower();
-            //}
+    // Coding to ensure valid user entry
+    while (userChoice != "rock" && userChoice != "paper" && userChoice != "scissors")
+    {
+        Console.WriteLine("Please make a valid entry of 'rock,' 'paper,' or 'scissors.' Try again:");
+        userChoice = Console.ReadLine().ToLower();
+        Console.WriteLine();
+    }
 
 
-    //Runs through the scenarios
+    // Runs through the scenarios
     while (userChoice == computerChoice)
     {
         Console.Write($"We both chose {userChoice}. We tied. Choose again: ");

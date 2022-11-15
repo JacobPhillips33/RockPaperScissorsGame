@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jake\\Desktop\\Repos\\RockPaperScissorsGame\\RockPaperScissorsGame\\RockPaperScissorsGame.csproj",
+      "projectUniqueName": "C:\\Users\\Jake\\Desktop\\Repos\\008. RockPaperScissorsGame\\RockPaperScissorsGame\\RockPaperScissorsGame.csproj",
       "projectName": "RockPaperScissorsGame",
-      "projectPath": "C:\\Users\\Jake\\Desktop\\Repos\\RockPaperScissorsGame\\RockPaperScissorsGame\\RockPaperScissorsGame.csproj",
+      "projectPath": "C:\\Users\\Jake\\Desktop\\Repos\\008. RockPaperScissorsGame\\RockPaperScissorsGame\\RockPaperScissorsGame.csproj",
       "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jake\\Desktop\\Repos\\RockPaperScissorsGame\\RockPaperScissorsGame\\obj\\",
+      "outputPath": "C:\\Users\\Jake\\Desktop\\Repos\\008. RockPaperScissorsGame\\RockPaperScissorsGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
